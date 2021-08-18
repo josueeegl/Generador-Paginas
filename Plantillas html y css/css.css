@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&family=Noto+Sans+JP&display=swap");
+body {
+  background: url("imagenfondo") no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 99%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 40px;
+  padding: 15px;
+  top: 0;
+  width: 92%;
+  background-color: rgba(27, 29, 70, 0.5);
+  height: 400px;
+  border-radius: 6px;
+}
+.menu {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 0;
+  top: 0;
+  background-color: rgba(12, 6, 44, 0.8);
+  left: 0;
+  height: 405px;
+  border-radius: 4px;
+}
+.image {
+  position: relative;
+  left: 2px;
+  top: 1px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+  vertical-align: middle;
+  border-style: none;
+}
+.image-menu {
+  position: relative;
+  top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
+}
+.info {
+  top: -20px;
+  font-size: 15px;
+  font-family: "Encode Sans SC";
+  text-align: center;
+  color: #fff;
+}
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: "Encode Sans SC";
+}
+.inicio {
+  margin: 20px;
+  float: right;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+.botones a {
+  position: relative;
+  text-decoration: none;
+  padding: 15px;
+  margin: 45px;
+  top: 40px;
+  color: rgb(5, 5, 5);
+  font-family: "Encode Sans SC";
+}
+.botones {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin: auto;
+  width: 400px;
+  height: 100px;
+}
+.contacto:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hobie:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cont2 {
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(37, 32, 85, 0.7);
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  height: 400px;
+  font-family: "Encode Sans SC";
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-family: "Encode Sans SC", bold;
+  position: relative;
+  left: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 5px;
+  font-family: "Encode Sans SC", bold;
+  position: relative;
+  left: 50px;
+}
+
+.h-images {
+  width: 220px;
+  height: 250px;
+}
+.lista {
+  position: relative;
+  margin: 15px;
+  padding: 15px;
+  top: 80px;
+  width: 300px;
+  height: 100px;
+  display: inline-grid;
+}
+.lista li {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Encode Sans SC", bold;
+}
+
+div a {
+  position: relative;
+  top: -60px;
+}
+table {
+  width: 300px;
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 4px;
+  color: black;
+}
+table th {
+  background-color: #477a7a;
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table td {
+  border: solid 1px #ddd;
+  padding: 8px;
+}

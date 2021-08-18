@@ -1,0 +1,37 @@
+﻿<Window x:Class="Primer_parcial___desarrollo_web.Forms.Datos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Primer_parcial___desarrollo_web.Forms"
+        mc:Ignorable="d"
+        Title="Datos" Height="861.197" Width="1495.694" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Click="BtnGenerar_Click" x:Name="btnGenerar" Content="Generar" Height="89" Margin="280,0,290,26" VerticalAlignment="Bottom" Width="424" Background="#FF1D8B1D" Foreground="#FFECECEC" FontSize="24" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="35" Margin="207,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <Label Content="Nombre completo:" HorizontalAlignment="Left" Margin="30,54,0,0" VerticalAlignment="Top" Width="155" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtCarne" HorizontalAlignment="Left" Height="35" Margin="207,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <Label Content="Carné:" HorizontalAlignment="Left" Margin="30,116,0,0" VerticalAlignment="Top" Width="155" FontSize="16" FontWeight="Bold"/>
+        <Image x:Name="imgcargar" HorizontalAlignment="Left" Height="183" Margin="739,24,0,0" VerticalAlignment="Top" Width="232" Source="pack://siteoforigin:,,,/Resources/darth-vader.png"/>
+        <Button Content="Cargar imagen" Name="btnImagen" HorizontalAlignment="Left" Margin="574,73,0,0" VerticalAlignment="Top" Width="150" Background="#FF4260C9" FontSize="16" FontWeight="Bold" Click="BtnImagen_Click" Height="47"/>
+        <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Height="35" Margin="207,181,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <Label Content="Fecha de nacimiento:" HorizontalAlignment="Left" Margin="30,185,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="txtCiudad" HorizontalAlignment="Left" Height="35" Margin="207,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="350" FontSize="16"/>
+        <Label Content="Ciudad:" HorizontalAlignment="Left" Margin="30,252,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Habilidades:" HorizontalAlignment="Left" Margin="30,312,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
+        <DataGrid x:Name="gridHabilidades" HorizontalAlignment="Left" Height="162" Margin="30,369,0,0" VerticalAlignment="Top" Width="290" Background="#FF678B88" CanUserAddRows="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="habi" Binding="{Binding Path=Habilidad}"  FontSize="16" Header="Habilidad"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Hobbies:" HorizontalAlignment="Left" Margin="376,312,0,0" VerticalAlignment="Top" Width="172" FontSize="16" FontWeight="Bold"/>
+        <DataGrid x:Name="gridHobbies" HorizontalAlignment="Left" Height="162" Margin="376,369,0,0" VerticalAlignment="Top" Width="264" Background="#FF5F8784" CanUserAddRows="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="Hob" Binding="{Binding Path=Hobbies}"  FontSize="16" Header="Hobbies"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Image x:Name="imgFondo" HorizontalAlignment="Left" Height="183" Margin="1030,348,0,0" VerticalAlignment="Top" Width="232" Source="pack://siteoforigin:,,,/Resources/darth-vader.png"/>
+        <Button Content="Cargar Fondo" x:Name="btnImgFondo" HorizontalAlignment="Left" Margin="865,397,0,0" VerticalAlignment="Top" Width="150" Background="#FF4260C9" FontSize="16" FontWeight="Bold" Click="BtnImgFondo_Click" Height="47"/>
+
+    </Grid>
+</Window>
